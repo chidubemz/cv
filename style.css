@@ -1,0 +1,234 @@
+a {
+    color: #ffff; /* You can replace this with your desired color code */
+    font-family: "Sofia", sans-serif;
+    text-decoration:none;
+}
+
+a:hover {
+    color: rgb(167, 58, 103);
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Trirong", serif;
+    font-size: 13px; 
+    background-color:#A84686;
+}
+
+.contactBody{
+    background-color: #360535;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactBody p{
+    color:#FFFCAA;
+
+}
+.contactCard {
+    background-color: #c3587e;
+    color:#FFFCAA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 500px;
+    flex: 0 1 calc(33.33% - 20px);
+  }
+.card {
+    background-color: #c3587e;
+    color:#FFFCAA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    flex: 0 1 calc(33.33% - 20px);
+  }
+  
+
+
+/* Style for the card content */
+.card-content {
+    padding: 20px; 
+}
+
+/* Style for the card title */
+.card-content h2 {
+    font-size: 1.5rem; 
+    margin: 0;
+}
+
+/* Style for the card paragraph/text */
+.card-content p {
+    margin: 10px 0; 
+}
+
+/* Style the anchor tag in the footer */
+footer a {
+
+    color: rgb(167, 58, 103);
+    padding: 5px 10px;
+    border: 1px solid #333; 
+    background-color: black;
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  footer a:hover {
+    background-color: #333; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+    /* position:absolute; */
+  }
+
+footer{
+    background-color: black;
+
+    padding: 13px;
+    color:white;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ffcf72;
+    font-size: 30px;
+    font-family: 'Satisfy';font-size: 22px;
+  }
+
+  hr {
+    border: none;
+    height: 2px;
+    background-color: #73263d;
+    margin: 20px 0;
+    border-radius: 4px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
+  }
+  
+.introimg1{
+    position: absolute;
+   max-width: 100%;
+   display: flex;
+   z-index: 0;
+    /* top: 70px;
+  left: 1000px;
+  right: 20px; */
+  
+}
+
+.introimg2{
+     position: absolute;
+     padding: 20px;
+    border-radius: 80%; 
+    height: 200px;
+    top: 10px;
+    right: 20px;
+}
+
+.introimg3{
+    position: absolute;
+    padding: 20px;
+     /* border: 2px solid #fff; */
+     border-radius: 80%; 
+   
+     height: 200px;
+     top: 500px;
+     right: 50px;   
+}
+
+.introimg4{
+    position: absolute;
+    padding: 20px;
+    
+     border-radius: 80%; 
+   
+     height: 200px;
+     top: 500px;
+     left: 50px;   
+}
+
+
+.indexIntro{
+    background-color:#A84686;
+    position:relative;
+    height: 800px;
+
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+.indexIntro p{
+    display: flex;
+    z-index: 100;
+color: #ffcf72;
+padding: 5px; /* Add padding to the text for spacing */
+
+}
+
+
+#img1{
+    border: 2px solid #FFFCAA;
+  border-radius: 10px;
+  /* Style for the card image */
+
+    overflow: hidden;
+    width:auto;
+    height: 300px;
+    display: block;
+}
+
+#img2,#img3{
+    border: 2px solid #FFFCAA;
+  border-radius: 10px;
+  /* Style for the card image */
+
+    overflow: hidden;
+    width: 300px;;
+    height: 300px;
+    display: block;
+}
+
+.indexBody{
+    position: relative;
+    background-color: #1D0331;
+    color:aquamarine;
+    padding: 30px;
+    }
+
+.list{
+
+    display:grid;
+}
+nav{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(167, 58, 103);
+    display: flex;
+    justify-content: right;
+    padding: 1px;
+    margin: 0px;
+}
+
+.one-col {
+    display: grid;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+    height: 50vh; /* Adjust the height as needed */
+  }
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    gap: 1px; /* Add space between columns */  
+}
+
+ul{
+    display: grid;
+}
